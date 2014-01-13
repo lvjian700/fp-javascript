@@ -1,0 +1,14 @@
+{
+  "name": "fb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "closure.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+	"underscore": "*"
+  },
+  "author": "lvjian700",
+  "license": "MIT"
+}
