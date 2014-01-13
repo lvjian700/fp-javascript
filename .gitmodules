@@ -1,0 +1,3 @@
+[submodule "functional-javascript"]
+	path = functional-javascript
+	url = https://github.com/osteele/functional-javascript.git
