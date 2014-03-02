@@ -1,4 +1,5 @@
 var _ = require('underscore');
+var construct = require('../common.js').construct;
 
 var influences = [
 	['Lisp', 'Smalltalk'],
@@ -26,6 +27,7 @@ function nexts (graph, node) {
 	}
 }
 
-nexts(influences, 'Lisp');
+var ret = nexts(influences, 'Lisp');
+console.log(ret);
 
 
