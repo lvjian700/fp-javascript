@@ -1,17 +1,11 @@
 var _ = require('underscore');
+var cat = require('../common').cat;
 
 function existy(x) {
 	return x != null;
 }
 
-function cat() {
-	var head = _.first(arguments);
-	if(existy(head)) {
-		return head.concat.apply(head, _.rest(arguments));
-	} 
-	
-	return [];
-}
+
 
 function LazyChain (obj) {
 	this._calls = [];
